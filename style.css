@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+.column{
+    margin: 5px;
+    border: 2px solid black;
+    float: left;
+    width: 24%;
+    padding: 15px;
+    height: 300px;
+}
+.main{
+    text-align: center;
+}
+p{
+    text-align: justify;
+}
+@media screen and (max-width:600px){
+    .column{
+        width: 100%;
+        margin: 2px;
+    }
+}
